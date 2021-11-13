@@ -1,11 +1,11 @@
-<!-- @format -->
+HOLA! 😃
 
-! Uso de las cookies !
+portafolio para inmobiliarias > https://colorscssjs.netlify.app/
 
-Esta página web usa cookies
-Las cookies de este sitio web se usan para personalizar el contenido y los anuncios, ofrecer funciones de redes sociales y analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de redes sociales, publicidad y análisis web, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de sus servicios.
+Propuesta de valor para las agencias inmobiliarias locales de tamaño pequeña a mediana con un promedio de 5 a 30 agentes inmobiliarios, en esta plataforma podran mostrar su portafolio de casas en venta y renta, asi como información de contacto de los agentes inmobiliarios, al igual que podran solicitar los datos de las personas interesadas en adquirir un bien inmueble.
 
-<!-- función para quitar menu responsive -->
+YouTube > https://www.youtube.com/channel/UCjOV6CJ6Srna1jnbnKHuNNg
 
-window.onscroll = () => {
-navbar.classList.remove("active");
+Facebook > https://www.facebook.com/cisneros.fco/
+
+Landing page > https://webcreativa.mx/
