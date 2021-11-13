@@ -1,0 +1,30 @@
+/** @format */
+
+/* Margins Bottom */
+.mb-1r {
+  margin-bottom: 1rem;
+}
+
+.mb-2r {
+  margin-bottom: 2rem;
+}
+
+.mb-3r {
+  margin-bottom: 3rem;
+}
+
+.mb-3r {
+  margin-bottom: 3rem;
+}
+
+.mb-4r {
+  margin-bottom: 4rem;
+}
+
+.mb-5r {
+  margin-bottom: 5rem;
+}
+
+/* Break point 768px */
+@media only screen and (max-width: 768px) {
+}
