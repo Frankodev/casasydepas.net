@@ -32,15 +32,6 @@ window.onscroll = () => {
   });
 };
 
-// Aplicando función al #search-form (modal)
-// document.guerySelector("#modal").onclick = () => {
-//   document.getElementsByClassName("search-form").classList.toggle("active");
-// };
-
-// document.querySelector("#close").onclick = () => {
-//   document.getElementsByClassName("search-form").classList.remove("active");
-// };
-
 var swiper = new Swiper(".home-slider", {
   spaceBetween: 50,
   centeredSlides: true,
@@ -88,30 +79,3 @@ function fadeOut() {
 }
 
 window.onload = fadeOut;
-
-//SCRIPT PARA ENVIO DE FORMULARIO OCt-21
-// const formulario = document.getElementById("formulario");
-// const registro = document.getElementById("registro");
-// const exito = document.getElementById("exito");
-
-// formulario.addEventListener("submit", async (e) => {
-//   e.preventDefault();
-
-//   await fetch(
-//     "https://sheet.best/api/sheets/3bbe9427-c375-4596-96e3-f5f98c7b56ae",
-//     {
-//       method: "POST",
-//       mode: "cors",
-//       headers: {
-//         "Content-Type": "application/json",
-//       },
-//       body: JSON.stringify({
-//         Nombre: formulario.nombre.value,
-//         Telefono: formulario.telefono.value,
-//         Mensaje: formulario.mensaje.value,
-//       }),
-//     }
-//   );
-//   registro.classList.remove("activo");
-//   exito.classList.add("activo");
-// });
