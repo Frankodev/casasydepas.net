@@ -32,6 +32,7 @@ window.onscroll = () => {
   });
 };
 
+// Clase que crea el loader
 var swiper = new Swiper(".home-slider", {
   spaceBetween: 50,
   centeredSlides: true,
