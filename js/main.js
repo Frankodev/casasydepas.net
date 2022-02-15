@@ -51,7 +51,7 @@ var swiper = new Swiper(".review-slider", {
   spaceBetween: 30,
   centeredSlides: true,
   autoplay: {
-    delay: 7500,
+    delay: 5500,
     disableOnInteraction: false,
   },
   loop: true,
@@ -76,7 +76,7 @@ function loader() {
 }
 
 function fadeOut() {
-  setInterval(loader, 1500);
+  setInterval(loader, 2000);
 }
 
 window.onload = fadeOut;
