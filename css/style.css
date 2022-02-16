@@ -92,6 +92,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 2rem;
+
   z-index: 1000;
   box-shadow: var(--box-shadow);
 }
@@ -557,7 +559,7 @@ header {
   display: flex;
   justify-content: space-between;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 2.5rem;
+  gap: 3rem;
   margin: 5rem 0;
 }
 
@@ -580,6 +582,7 @@ header {
 }
 
 .copyright {
+  width: 100%;
   text-align: center;
   border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
   font-size: 2rem;
@@ -594,6 +597,7 @@ header {
   font-size: 2.4rem;
 }
 
+/* loader */
 .loader-container {
   position: fixed;
   top: 0;
@@ -609,7 +613,8 @@ header {
 }
 
 .loader-container img {
-  width: 40%;
+  width: 250px;
+  height: 250px;
 }
 
 .loader-container.fade-out {

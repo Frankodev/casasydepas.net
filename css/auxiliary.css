@@ -1,5 +1,10 @@
 /** @format */
 
+/* Margins Top */
+.mt-8 {
+  margin-top: 8rem;
+}
+
 /* Margins Bottom */
 .mb-1r {
   margin-bottom: 1rem;

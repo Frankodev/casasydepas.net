@@ -9,8 +9,17 @@
     <title>Villa 12 | Altamar Residencial</title>
     <meta
       name="description"
-      content="Casas en Venta, Departamentos en Venta, Casas en Renta, Departamentos en Renta, Diseños de Proyectos (Lotes con construcción). Gestoría de Créditos Hipotecarios, Crédito Bancarios, Crédito Fovissste y Crédito Infonavit, Avalúos comerciales. Servicios de construcción, Servicios de Cocina Integrales, Cocinas de Granito, Cocinas de Marmol y Mucho Más. Asesoría de principio a fin."
+      content="Casas en Venta, Departamentos en Venta, Casas en Renta, Departamentos en Renta, Diseños de Proyectos (Lotes con construcción). Gestoría de Créditos Hipotecarios, Crédito Bancarios, Crédito Fovissste y Crédito Infonavit, Avalúos comerciales. Servicios de construcción, Servicios de Cocina Integrales, Cocinas de Granito, Cocinas de Mármol y Mucho Más. Asesoría de principio a fin."
     />
+
+    <!-- "favicon" icon of the page -->
+    <link rel="shortcut icon" href="../img/favicon.svg" type="image/png" />
+
+    <!-- icon for apple ios -->
+    <link rel="apple-touch-icon" href="../img/favicon.svg" />
+
+    <!-- icon for android cel -->
+    <!-- <link rel="manifest" href="manifest.webmanifest" /> -->
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="../css/propiedades.css" />
@@ -18,11 +27,27 @@
   </head>
 
   <body>
+    <!-- section Header -->
     <header>
+      <div class="logo__container">
+        <img
+          class="logo__img"
+          src="../img/logo.svg"
+          alt="logo casasydepas.net"
+        />
+        <a href="https://casasydepas.net" class="logo">casasydepas.net</a>
+      </div>
+    </header>
+    <!-- Header fin-->
+
+    <!-- titulo página -->
+    <section class="mt-8">
       <h1 class="heading">Los Mejores Inmuebles</h1>
       <h2 class="sub-heading">La Mejor Inversión</h2>
-    </header>
-    <section class="main">
+    </section>
+
+    <!-- section principal -->
+    <main class="main">
       <!-- section galería de imagenes -->
       <div class="container first-row">
         <div id="galeria" class="container__imgs">
@@ -108,7 +133,7 @@
                   alt="imagén ilustrativa de una cama"
                 />
               </span>
-              3 Recamaras
+              3 Recámaras
             </p>
             <p class="descripcion__p">
               <span class="descripcion__icon">
@@ -162,16 +187,16 @@
                   alt="imagén ilustrativa de una cama"
                 />
               </span>
-              Zone kid´s
+              Kid´s zone
             </p>
             <p class="descripcion__p">
               <span class="descripcion__icon">
                 <img
-                  src="../icons/jugador-de-futbol.png"
+                  src="../icons/tenis.png"
                   alt="imagén ilustrativa de una cama"
                 />
               </span>
-              Amplias areas verdes
+              Cancha de tenis
             </p>
             <p class="descripcion__p">
               <span class="descripcion__icon">
@@ -183,11 +208,13 @@
               Vigilancia 24/7
             </p>
           </div>
+
+          <!-- botones -->
           <div class="container__btns">
-            <a href="../index.html#order" class="btn-accion"
+            <a href="../index.html#contacto" class="btn-accion"
               >Contactar un asesor</a
             >
-            <a href="../index.html#dishes" class="btn-prim"
+            <a href="../index.html#ventas" class="btn-prim"
               >Ver más propiedades</a
             >
           </div>
@@ -203,20 +230,79 @@
             Un nuevo concepto de espacio que se fusiona con la naturaleza para
             ofrecerte el confort, tranquilidad y servicios de alto nivel. Villas
             Velato Está compuesto por cinco Clústers con barda perimetral y
-            acceso controlado para asegurar un ambiente seguro y exclusivo.
+            acceso controlado para garantizar un ambiente seguro y exclusivo.
           </p>
           <p>
             Es el lugar ideal para tomarte un descanso, cerca encontraras
-            centros comerciales como la isla shopin villages, el forum mundo
-            imperial, asi como plazas comerciales, walmart, chedraui comercial
-            mexicana, tiendas y tiendas de conveniencia, la playa la tendrás a
-            solo 10 minutos!
+            centros comerciales como la isla shopping village, el forum mundo
+            imperial, así como plazas comerciales, walmart, chedraui comercial
+            mexicana, y tiendas de conveniencia ¡La playa la tendrás a solo 10
+            minutos!
           </p>
         </div>
       </div>
 
       <!-- section mapa ubicación -->
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15278.601635026238!2d-99.8013381!3d16.7940597!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ab272778a2af740!2sVillas%20Velato%20Villas%20en%20Venta!5e0!3m2!1ses-419!2smx!4v1644979692188!5m2!1ses-419!2smx"
+          width="100%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+    </main>
+
+    <!-- Footer section   -->
+    <section class="footer">
+      <div class="footer__container">
+        <div class="container__box">
+          <h2>Oficinas de Atención</h2>
+          <a href="#contacto">Acapulco</a>
+          <a href="#contacto">Chilpancingo</a>
+          <a href="#contacto">Zihuatanejo</a>
+        </div>
+
+        <div class="container__box">
+          <h2>Links</h2>
+          <a href="#">Inicio</a>
+          <a href="#ventas">Venta</a>
+          <a href="#rentas">Renta</a>
+          <a href="#tienda">Marketplace</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#contacto">Contáctanos</a>
+        </div>
+
+        <div class="container__box">
+          <h2>Contáctanos</h2>
+          <a href="tel:744-588-9420">744-588-9420</a>
+          <a href="mailto:contacto@casasydepas.net">contacto@casasydepas.net</a>
+          <a href="https://wa.me/c/5217445889420"
+            >Plaza Navegantes Local 16D, Boulevard de las Naciones, 39906
+            Acapulco, Gro.</a
+          >
+        </div>
+
+        <div class="container__box">
+          <h2>Síguenos</h2>
+          <a href="#order">Facebook</a>
+
+          <a href="#order">Instagram</a>
+          <a href="https://wa.me/c/5217445889420">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        copyright 2022 by
+        <a href="https://webcreativa.mx" target="_blank">webcreativa</a>
+      </div>
     </section>
+    <!-- Footer fin -->
+
     <script src="../js/galeria.js"></script>
   </body>
 </html>
