@@ -504,10 +504,12 @@ header {
   text-transform: none;
   margin-bottom: 1rem;
   width: 100%;
+
+  transition: 0.1s all;
 }
 
-.order form .inputBox .input input:focus,
-.order form .inputBox .input textarea:focus {
+.input input:focus,
+.input textarea:focus {
   border: 0.1rem solid var(--green);
 }
 
