@@ -272,6 +272,7 @@ header {
 .img__container img {
   width: 100%;
   min-height: fit-content;
+  min-height: 20rem;
   border-radius: 4px 4px 0 0;
   vertical-align: middle;
 
