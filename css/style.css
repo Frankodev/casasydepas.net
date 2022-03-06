@@ -48,6 +48,10 @@ section:nth-child(odd) {
   background: #eee;
 }
 
+.hero {
+  padding: 10rem 8% 5rem;
+}
+
 .sub-heading {
   text-align: center;
   color: var(--black);
@@ -73,6 +77,11 @@ section:nth-child(odd) {
   padding: 0.8rem 3rem;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+}
+
+.btn-absolute {
+  position: absolute;
+  bottom: 2rem;
 }
 
 .btn-prim:hover {
@@ -133,6 +142,11 @@ header {
   background: var(--darkgreen);
 }
 
+.activ {
+  border: #025e63 0.4px solid;
+  transition: all 0.3s ease-in-out;
+}
+
 .icons-navbar {
   position: absolute;
 }
@@ -173,8 +187,8 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 4rem;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+
+  padding: 2rem 0 3rem;
 }
 
 .home .home-slider .slide .content {
@@ -302,8 +316,8 @@ header {
 
 .distribucion__cuarto {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  align-items: flex-end;
+  gap: 0.8rem;
 }
 
 .distribucion__cuarto img {
@@ -311,7 +325,8 @@ header {
 }
 
 .distribucion__cuarto span {
-  font-size: 1.6rem;
+  font-size: 2rem;
+  line-height: 2rem;
   font-weight: 300;
   color: var(--blackgrey);
 }
@@ -420,11 +435,14 @@ header {
   font-size: 2.5rem;
 }
 
+/* section marketplace */
 .review .slide {
+  min-height: 36rem;
+
   padding: 2rem;
   box-shadow: var(--box-shadow);
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
   position: relative;
 
   background-color: white;
@@ -442,7 +460,7 @@ header {
   display: flex;
   gap: 1.5rem;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-bottom: 2.8rem;
 }
 
 .review .slide .user img {
@@ -470,6 +488,7 @@ header {
   color: var(--light-color);
 }
 
+/* section formulario */
 .order form {
   max-width: 60rem;
   border-radius: 0.5rem;
@@ -661,6 +680,7 @@ header {
     margin: 1rem;
     font-size: 2rem;
     background: #eee;
+    border: none;
   }
 
   #search-form #search-box {

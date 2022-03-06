@@ -1,5 +1,9 @@
 /** @format */
 
+.margin-0 {
+  margin: 0;
+}
+
 /* Margins Top */
 .mt-8 {
   margin-top: 8rem;
@@ -41,6 +45,11 @@
 
 .mb-5r {
   margin-bottom: 5rem;
+}
+
+/* Paddins section */
+.p-section {
+  padding: 5rem 8%;
 }
 
 /* Paddins top */
