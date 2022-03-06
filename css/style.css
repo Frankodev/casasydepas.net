@@ -238,6 +238,9 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   gap: 2.6rem;
+
+  max-width: 118rem;
+  margin: auto;
 }
 
 .box {
@@ -623,6 +626,10 @@ header {
     width: 500px;
     height: 500px;
   }
+
+  .fd-cr {
+    flex-direction: column-reverse;
+  }
 }
 
 /* Break point 991px -> Auxiliar*/
@@ -688,6 +695,10 @@ header {
     margin: 0 1rem;
   }
 
+  .h1-hidden {
+    display: none;
+  }
+
   .home .home-slider .slide .content h3 {
     font-size: 5rem;
   }
@@ -736,7 +747,7 @@ header {
   .home .home-slider .slide .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     gap: 1.5rem;
     margin: 3rem;
