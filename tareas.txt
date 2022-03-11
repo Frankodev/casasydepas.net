@@ -1,0 +1,15 @@
+TAREAS;
+
+Notas generales: 
+* Se requiere investigar en donde puedo almacenar las imagenes de las propiedades, esto con la finalidad de no cargarlas dentro del proyecto.
+
+* Se requiere crear una base de datos con toda la información de las inmobiliaria y prestadores de servicios o productos.
+
+* Se requiere hacer una API para despachar la información de cada inmobiliaria, tienda o servicio, con sus propiedades, productos o servicios (Catalogo de VENTA y RENTA).
+
+* Se requiere de hacer las conexiones del Front con el Back para traer la información de la base de dato.
+
+* Se requiere hacer un componente (plantilla) para renderizar cada propiedad de acuerdo con su id o nombre descriptivo, esto con la finalidad de tener un codigo limpio y no tener codigo repetitivo.
+
+- 08_Mar_2022
+1.- 
