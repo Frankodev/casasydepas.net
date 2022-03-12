@@ -41,7 +41,7 @@ html {
 
 section {
   padding: 5rem 8% 10rem;
-  min-width: 100vw;
+  min-width: 100%;
 }
 
 section:nth-child(odd) {
@@ -179,7 +179,7 @@ header {
   padding: 10rem 5rem 8.5rem;
   /* padding: 7rem 4rem 0; */
   /* height: 100vh; */
-  width: 100vw;
+  width: 100%;
 }
 
 .home .home-slider .slide {
@@ -707,7 +707,7 @@ header {
 /* Break point 768px */
 @media only screen and (max-width: 768px) {
   section {
-    min-width: 100vw;
+    min-width: 100%;
   }
 
   .home {
