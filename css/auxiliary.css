@@ -53,6 +53,9 @@
 }
 
 /* Paddins top */
+.pt-10 {
+  padding-top: 10rem;
+}
 /* Paddins right */
 .pr-2 {
   padding-right: 2rem;
