@@ -3,13 +3,25 @@ TAREAS;
 Notas generales: 
 * Se requiere investigar en donde puedo almacenar las imagenes de las propiedades, esto con la finalidad de no cargarlas dentro del proyecto.
 
-* Se requiere crear una base de datos con toda la información de las inmobiliaria y prestadores de servicios o productos.
+* Se requiere crear una base de datos con toda la información de las inmobiliaria y prestadores de servicios y/o productos.
 
 * Se requiere hacer una API para despachar la información de cada inmobiliaria, tienda o servicio, con sus propiedades, productos o servicios (Catalogo de VENTA y RENTA).
 
-* Se requiere de hacer las conexiones del Front con el Back para traer la información de la base de dato.
+* Se requiere hacer las conexiones del Front con el Back para traer la información de la base de dato.
 
-* Se requiere hacer un componente (plantilla) para renderizar cada propiedad de acuerdo con su id o nombre descriptivo, esto con la finalidad de tener un codigo limpio y no tener codigo repetitivo.
+* Se requiere hacer un componente (plantilla) para renderizar cada propiedad en (VENTA o RENTA) de acuerdo con su id o nombre descriptivo, esto con la finalidad de tener un codigo limpio y no tener codigo repetitivo.
 
-- 08_Mar_2022
-1.- 
+- 16_Mar_2022 - Tareas del día (PENDIENTE-TODO)
+1.- (HECHO 16-03-22-18:38pm) Hacer una flecha en el HERO del portafolio de la inmobiliaria que indique que el usuario debe desplazarse hacia la parte de abajo, para ver las propiedades
+
+2.- (HECHO 16-03-22-18:39pm) Revisar si puedo mejorar el diseño de HERO del catalogo de la inmobiliaria
+
+3.- (HECHO 16-03-22-18:40pm) Quitar el TITULO y el SUBTITULO de todas las PLANTILLAS de las propiedades en venta y renta
+
+4.- Hacer un galería de imágenes de las fotos dentro de las PLANTILLAS de las propiedades con LIGHTBOX
+
+5.- Meter mas imágenes a la galería de imagenes de las propiedades dentro de las PLANTILLAS 
+
+8.- Comenzar a hacer componente el SLIDE de los PRODUCTOS y SERVICIOS, para hacerlo REUTILIZABLE
+
+7.- Comenzar a hacer componente la PLANTILLAS de las propiedades en venta y renta para hacerla REUTILIZABLE
