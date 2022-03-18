@@ -11,12 +11,15 @@ Notas generales:
 
 * Se requiere hacer un componente (plantilla) para renderizar cada propiedad en (VENTA o RENTA) de acuerdo con su id o nombre descriptivo, esto con la finalidad de tener un codigo limpio y no tener codigo repetitivo.
 
-- 16_Mar_2022 - Tareas del día (PENDIENTE-TODO)
+- 16_Mar_2022 - Tareas del día
 1.- (HECHO 16-03-22-18:38pm) Hacer una flecha en el HERO del portafolio de la inmobiliaria que indique que el usuario debe desplazarse hacia la parte de abajo, para ver las propiedades
 
 2.- (HECHO 16-03-22-18:39pm) Revisar si puedo mejorar el diseño de HERO del catalogo de la inmobiliaria
 
 3.- (HECHO 16-03-22-18:40pm) Quitar el TITULO y el SUBTITULO de todas las PLANTILLAS de las propiedades en venta y renta
+
+> PENDIENTES...
+1.- poner a todas las imágenes el atributo "loading=lazy"
 
 4.- Hacer un galería de imágenes de las fotos dentro de las PLANTILLAS de las propiedades con LIGHTBOX
 
@@ -25,3 +28,5 @@ Notas generales:
 8.- Comenzar a hacer componente el SLIDE de los PRODUCTOS y SERVICIOS, para hacerlo REUTILIZABLE
 
 7.- Comenzar a hacer componente la PLANTILLAS de las propiedades en venta y renta para hacerla REUTILIZABLE
+
+8.- Hacer un buscador dentro del index para buscar las propiedades por (PRECIO, UBICACION, ETC.)
