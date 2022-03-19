@@ -143,8 +143,8 @@ header {
 }
 
 .activ {
-  border: #025e63 0.4px solid;
-  transition: all 0.3s ease-in-out;
+  color: white !important;
+  background: var(--darkgreen) !important;
 }
 
 .icons-navbar {
@@ -205,7 +205,7 @@ header {
 .home .home-slider .slide .image img {
   width: 520px;
   height: 520px;
-  border-radius: 4px;
+  border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   object-fit: cover;
 
@@ -648,7 +648,7 @@ header {
   height: 100%;
   width: 100%;
   z-index: 10000;
-  background: var(--logo);
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -656,8 +656,8 @@ header {
 }
 
 .loader-container img {
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
 }
 
 .loader-container.fade-out {

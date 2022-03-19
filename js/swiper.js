@@ -1,5 +1,21 @@
 /** @format */
 
+// Carrusel del Hero
+var swiper = new Swiper(".home-slider", {
+  spaceBetween: 50,
+  centeredSlides: true,
+  autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  loop: true,
+});
+
+// Carrusel del marketplace
 var swiper = new Swiper(".review-slider", {
   spaceBetween: 30,
   centeredSlides: true,
