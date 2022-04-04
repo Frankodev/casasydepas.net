@@ -3,13 +3,25 @@ TAREAS;
 Notas generales: 
 * Se requiere investigar en donde puedo almacenar las imagenes de las propiedades, esto con la finalidad de no cargarlas dentro del proyecto.
 
+Investigado
+24-mar-22 -> Las imagenes las podria almacenar en Amazon S3 - AWS.
+
 * Se requiere crear una base de datos con toda la información de las inmobiliaria y prestadores de servicios y/o productos.
+
+Investigado
+24-mar-22 -> La base de datos que se adapta al proyecto seria MongoDB.
 
 * Se requiere hacer una API para despachar la información de cada inmobiliaria, tienda o servicio, con sus propiedades, productos o servicios (Catalogo de VENTA y RENTA).
 
+24-mar-22 -> El lenguaje que se adapta al proyecto para crear la API REST es Node JS - Express.
+
 * Se requiere hacer las conexiones del Front con el Back para traer la información de la base de dato.
 
+24-mar-22 -> El lenguaje que se adapta al proyecto para crear el Front (Cliente) es Svelte JS y para hacer las llamadas a la API REST -> BD es AXIOS.
+
 * Se requiere hacer un componente (plantilla) para renderizar cada propiedad en (VENTA o RENTA) de acuerdo con su id o nombre descriptivo, esto con la finalidad de tener un codigo limpio y no tener codigo repetitivo.
+
+24-mar-22 -> El lenguaje que se adapta al proyecto para crear el Front (Cliente) es Svelte JS.
 
 - 16_Mar_2022 - Tareas del día
 1.- (HECHO 16-03-22-18:38pm) Hacer una flecha en el HERO del portafolio de la inmobiliaria que indique que el usuario debe desplazarse hacia la parte de abajo, para ver las propiedades
@@ -19,7 +31,7 @@ Notas generales:
 3.- (HECHO 16-03-22-18:40pm) Quitar el TITULO y el SUBTITULO de todas las PLANTILLAS de las propiedades en venta y renta
 
 > PENDIENTES...
-1.- poner a todas las imágenes el atributo "loading=lazy"
+1.- (HECHO 19-03-22-14:03pm) poner a todas las imágenes el atributo "loading=lazy"
 
 4.- Hacer un galería de imágenes de las fotos dentro de las PLANTILLAS de las propiedades con LIGHTBOX
 
