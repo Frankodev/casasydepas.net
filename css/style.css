@@ -5,8 +5,10 @@
 /* Section global */
 :root {
   --logo: #025e63;
-  --green: #03bcc6;
-  --black: #192a56;
+
+  --green: #02969e;
+
+  --black: #2d2d2d;
   --orange: #ff8217;
   --light-color: #666666;
   --darkgreen: #02969e;
@@ -45,7 +47,7 @@ section {
 }
 
 section:nth-child(odd) {
-  background: #eee;
+  background: #efefef;
 }
 
 .hero {
@@ -863,5 +865,38 @@ header {
 @media only screen and (max-width: 320px) {
   .about .row .image-about img {
     max-width: 260px;
+  }
+}
+
+/* whatsapp */
+.whatsapp {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #00ff7f; */
+  background-color: var(--darkgreen);
+  border-radius: 50%;
+  z-index: 99999;
+  animation: shadow-pulse 1s infinite;
+}
+
+.whatsapp ion-icon {
+  width: 4.6rem;
+  height: 4.6rem;
+  fill: #fff;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    /* box-shadow: 0 0 0 0 #00ff7f; */
+    box-shadow: 0 0 0 0 var(--darkgreen);
+  }
+  100% {
+    box-shadow: 0 0 0 35px transparent;
   }
 }

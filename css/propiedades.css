@@ -4,11 +4,13 @@
 
 :root {
   --logo: #025e63;
-  --green: #03bcc6;
-  --black: #192a56;
+
+  --green: #02969e;
+
+  --black: #2d2d2d;
   --orange: #ff8217;
   --light-color: #666666;
-  --background: #eeeeee;
+  --background: #efefef;
   --darkgreen: #02969e;
   --blackgrey: #475578;
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
@@ -347,6 +349,7 @@ header {
 
 /* Footer */
 .footer {
+  width: 100vw;
   padding: 6rem 6% 2rem;
   background-color: white;
 }
