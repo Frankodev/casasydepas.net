@@ -881,7 +881,7 @@ header {
   /* background-color: #00ff7f; */
   background-color: var(--darkgreen);
   border-radius: 50%;
-  z-index: 99999;
+  z-index: 9999;
   animation: shadow-pulse 1s infinite;
 }
 
