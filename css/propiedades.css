@@ -170,7 +170,7 @@ header {
   min-width: 60rem;
   max-height: 59rem;
   max-width: 60rem;
-  margin: 2rem 1.5rem 0 0;
+  margin: auto 1.5rem;
   padding: 2rem 1rem;
   display: flex;
   align-items: center;
@@ -193,7 +193,7 @@ header {
   min-width: 41rem;
   min-height: 26rem;
   max-width: 100%;
-  max-height: 45rem;
+  max-height: 50rem;
 
   border-radius: 4px;
   overflow: hidden;
