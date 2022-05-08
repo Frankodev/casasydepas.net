@@ -29,6 +29,7 @@
 
 .mb-2r {
   margin-bottom: 2rem;
+  color: #ff5757;
 }
 
 .mb-3r {
@@ -73,7 +74,7 @@
 }
 
 .pb-2 {
-  padding-bottom: 2rem;
+  padding: 2rem 0 1rem;
 }
 
 .pb-3 {
