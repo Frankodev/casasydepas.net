@@ -28,8 +28,10 @@
 }
 
 .mb-2r {
+  font-size: 2.6rem;
   margin-bottom: 2rem;
   color: #ff5757;
+  text-transform: uppercase;
 }
 
 .mb-3r {
