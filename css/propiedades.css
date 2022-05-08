@@ -168,7 +168,7 @@ header {
 
 .container__img:hover,
 .container__img:active {
-  background-color: rgba(104, 192, 197, 0.8);
+  background-color: rgba(104, 192, 197, 0.85);
 }
 
 .container__img img {
