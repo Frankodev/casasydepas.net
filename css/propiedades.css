@@ -147,17 +147,20 @@ header {
 .container__imgs {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.5rem;
   margin-right: 1.5rem;
   padding: 2rem 1rem;
+
+  overflow: auto;
+  min-width: 12rem;
+  height: 65rem;
 }
 
 .container__img {
   position: relative;
-  width: 10rem;
+  min-width: 10rem;
   height: 7rem;
-  /* border: 1px solid rgba(0, 0, 0, 0.1); */
   border-radius: 4px;
   padding: 0.5rem;
   cursor: pointer;
@@ -411,9 +414,13 @@ header {
 
   .container__imgs {
     justify-content: start;
-    flex-flow: wrap;
+    /* flex-flow: wrap; */
     margin-right: 0;
     padding: 2rem 3rem;
+
+    flex-direction: row;
+    width: 100%;
+    height: auto;
   }
 
   .titulo__imgPrincipal {
@@ -538,6 +545,7 @@ header {
 @media only screen and (max-width: 480px) {
   .titulo {
     padding-left: 1rem;
+    font-size: 2.6rem;
   }
 
   .sub-titulo {
