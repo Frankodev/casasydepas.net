@@ -166,8 +166,9 @@ header {
   cursor: pointer;
 }
 
-.container__img:hover {
-  background-color: rgba(1, 75, 79, 0.225);
+.container__img:hover,
+.container__img:active {
+  background-color: rgba(104, 192, 197, 0.8);
 }
 
 .container__img img {
