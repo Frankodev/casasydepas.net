@@ -421,6 +421,8 @@ header {
     flex-direction: row;
     width: 100%;
     height: auto;
+
+    order: 2;
   }
 
   .titulo__imgPrincipal {
@@ -433,6 +435,8 @@ header {
     min-width: 100%;
     max-height: 100%;
     justify-content: center;
+
+    order: 1;
   }
 
   .container__foto--principal img {
@@ -453,6 +457,8 @@ header {
   .container__caracteristicas {
     padding: 2.5rem 1rem 1.5rem;
     margin: 2rem auto 5rem;
+
+    order: 3;
   }
 
   .descripcion {
