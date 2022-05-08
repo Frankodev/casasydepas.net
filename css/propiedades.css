@@ -500,11 +500,11 @@ header {
   }
 
   .second-row {
-    padding: 4rem;
+    padding: 2rem;
   }
 
   .container {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   .titulo__imgPrincipal {
@@ -563,10 +563,10 @@ header {
   }
 
   .contenedor__imagen {
-    min-width: 41rem;
+    min-width: 45rem;
     min-height: 26rem;
     max-width: 75rem;
-    max-height: 30rem;
+    max-height: 46rem;
 
     overflow: hidden;
   }
