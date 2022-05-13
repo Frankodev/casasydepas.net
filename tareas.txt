@@ -1,3 +1,21 @@
+NOTAS;
+
+* 9/may/22 -> video para hace el filtro de busqueda
+https://youtu.be/hEs3IL6UyvE
+
+* https://www.youtube.com/watch?v=_5HMNZsm6xE&list=RDCMUCm0q786c9bW9FiQvesV126A&index=1
+Min 26 en adelante.
+
+
+* https://www.youtube.com/watch?v=U6mEbFdavik&list=RDCMUCm0q786c9bW9FiQvesV126A&index=2
+Estilos de los botones del filtro
+
+* https://www.youtube.com/watch?v=gHPi_ge9wM4&list=RDCMUCm0q786c9bW9FiQvesV126A&index=3
+Javascript menú y medias css
+
+* https://www.youtube.com/watch?v=9CskOPQOp9w&list=RDCMUCm0q786c9bW9FiQvesV126A&index=4
+Min 1 en adelante
+
 TAREAS;
 
 Notas generales: 

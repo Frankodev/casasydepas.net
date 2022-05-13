@@ -196,11 +196,19 @@
     <!-- section - Venta inmuebles -->
     <section class="ventas" id="ventas">
       <h1 class="sub-heading">Venta</h1>
-      <h2 class="heading mb-5r">las mejores propiedades</h2>
+      <h2 class="heading">las mejores propiedades</h2>
+
+      <div class="btns-filtro mb-3r">
+        <a class="btn-filtro filter" id="vCasas" data-nombre="vcasa"> Casas </a>
+        <a class="btn-filtro filter" id="vDepas" data-nombre="vdepa">Depas</a>
+        <!-- <a class="btn-filtro filter" id="vTerrenos" data-nombre="vterreno">
+          Terrenos
+        </a> -->
+      </div>
 
       <div class="box-container">
         <!--Propiedad 1 -->
-        <div class="box">
+        <div class="box vcasa">
           <div class="img__container">
             <a class="img__overlay" target="_blank" href="venta/casatq"> </a>
             <img
@@ -240,7 +248,7 @@
         </div>
 
         <!--Propiedad 2 -->
-        <div class="box">
+        <div class="box vcasa">
           <div class="img__container">
             <a class="img__overlay" target="_blank" href="venta/casapm"> </a>
             <img
@@ -280,7 +288,7 @@
         </div>
 
         <!--Propiedad 3 -->
-        <div class="box">
+        <div class="box vcasa">
           <div class="img__container">
             <a class="img__overlay" target="_blank" href="venta/casazd5"> </a>
             <img
@@ -320,7 +328,7 @@
         </div>
 
         <!--Propiedad 4 -->
-        <div class="box">
+        <div class="box vcasa">
           <div class="img__container">
             <a class="img__overlay" target="_blank" href="venta/casazd4"> </a>
             <img
@@ -360,7 +368,7 @@
         </div>
 
         <!--Propiedad 5 -->
-        <div class="box">
+        <div class="box vcasa">
           <div class="img__container">
             <a class="img__overlay" target="_blank" href="venta/villa12"></a>
             <img
@@ -400,7 +408,7 @@
         </div>
 
         <!--Propiedad 6 -->
-        <div class="box">
+        <div class="box vdepa">
           <div class="img__container">
             <a target="_blank" class="img__overlay" href="venta/victory401"></a>
             <img
@@ -442,7 +450,7 @@
         </div>
 
         <!--Propiedad 7 -->
-        <div class="box">
+        <div class="box vdepa">
           <div class="img__container">
             <a target="_blank" class="img__overlay" href="venta/victory403"></a>
             <img
@@ -484,7 +492,7 @@
         </div>
 
         <!--Propiedad 8 -->
-        <div class="box">
+        <div class="box vdepa">
           <div class="img__container">
             <a target="_blank" class="img__overlay" href="venta/victory502"></a>
             <img
@@ -526,7 +534,7 @@
         </div>
 
         <!--Propiedad 9 -->
-        <div class="box">
+        <div class="box vdepa">
           <div class="img__container">
             <a class="img__overlay" target="_blank" href="venta/kayac"> </a>
             <img
@@ -571,11 +579,16 @@
     <!-- section - Renta inmuebles -->
     <section class="ventas" id="rentas">
       <h1 class="sub-heading">Renta</h1>
-      <h2 class="heading mb-5r">servicio personalizado de principio a fin</h2>
+      <h2 class="heading">servicio personalizado de principio a fin</h2>
+
+      <!-- <div class="btns-filtro mb-3r">
+        <div class="btn-filtro active filter" id="rCasas">Casas</div>
+        <div class="btn-filtro filter" id="rDepas">Depas</div>
+      </div> -->
 
       <div class="box-container">
         <!--Propiedad 1-->
-        <div class="box">
+        <div class="box rcasa">
           <div class="img__container">
             <a
               target="_blank"
@@ -619,7 +632,7 @@
         </div>
 
         <!--Propiedad 2-->
-        <div class="box">
+        <div class="box rdepa">
           <div class="img__container">
             <a target="_blank" class="img__overlay" href="renta/dbr"></a>
             <img
@@ -657,7 +670,7 @@
         </div>
 
         <!--Propiedad 3-->
-        <div class="box">
+        <div class="box rdepa">
           <div class="img__container">
             <a
               target="_blank"
@@ -981,64 +994,65 @@
           <input type="submit" value="ENVIAR" class="btn-prim" />
         </form>
       </div>
+      <div class="footer">
+        <div class="footer__container">
+          <div class="container__box">
+            <h2>Oficinas de Atención</h2>
+            <a class="link" target="_blank" href="https://wa.me/c/5217445889420"
+              >Acapulco</a
+            >
+          </div>
+
+          <div class="container__box">
+            <h2>Links</h2>
+
+            <a class="link" href="#ventas">Ventas</a>
+            <a class="link" href="#rentas">Rentas</a>
+            <a class="link" href="#tienda">Tienda</a>
+            <!-- <a class="link" href="#servicios">Servicios</a> -->
+            <a class="link" href="#contacto">Contáctanos</a>
+          </div>
+
+          <div class="container__box">
+            <h2>Contáctanos</h2>
+            <a href="tel:744-588-9420">744-588-9420</a>
+            <a target="_blank" href="https://wa.me/c/5217445889420"
+              >contacto@casasydepas.net</a
+            >
+            <a target="_blank" href="https://wa.me/c/5217445889420"
+              >Plaza Navegantes Local 16D, Boulevard de las Naciones, 39906
+              Acapulco, Gro.</a
+            >
+          </div>
+
+          <div class="container__box">
+            <h2>Síguenos</h2>
+            <a target="_blank" href="https://www.facebook.com/casasydepas.net"
+              >Facebook</a
+            >
+
+            <a target="_blank" href="https://www.instagram.com/casasydepas.nt/"
+              >Instagram</a
+            >
+            <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UCLRk0omkv2eIpC1DC8EELqw"
+              >YouTube</a
+            >
+            <a target="_blank" href="https://wa.me/c/5217445889420">WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          copyright 2022 by
+          <a href="https://webcreativa.mx" target="_blank">webcreativa</a>
+        </div>
+      </div>
     </section>
     <!-- Formulario fins -->
 
     <!-- Footer section   -->
-    <section class="footer">
-      <div class="footer__container">
-        <div class="container__box">
-          <h2>Oficinas de Atención</h2>
-          <a class="link" target="_blank" href="https://wa.me/c/5217445889420"
-            >Acapulco</a
-          >
-        </div>
 
-        <div class="container__box">
-          <h2>Links</h2>
-
-          <a class="link" href="#ventas">Ventas</a>
-          <a class="link" href="#rentas">Rentas</a>
-          <a class="link" href="#tienda">Tienda</a>
-          <!-- <a class="link" href="#servicios">Servicios</a> -->
-          <a class="link" href="#contacto">Contáctanos</a>
-        </div>
-
-        <div class="container__box">
-          <h2>Contáctanos</h2>
-          <a href="tel:744-588-9420">744-588-9420</a>
-          <a target="_blank" href="https://wa.me/c/5217445889420"
-            >contacto@casasydepas.net</a
-          >
-          <a target="_blank" href="https://wa.me/c/5217445889420"
-            >Plaza Navegantes Local 16D, Boulevard de las Naciones, 39906
-            Acapulco, Gro.</a
-          >
-        </div>
-
-        <div class="container__box">
-          <h2>Síguenos</h2>
-          <a target="_blank" href="https://www.facebook.com/casasydepas.net"
-            >Facebook</a
-          >
-
-          <a target="_blank" href="https://www.instagram.com/casasydepas.nt/"
-            >Instagram</a
-          >
-          <a
-            target="_blank"
-            href="https://www.youtube.com/channel/UCLRk0omkv2eIpC1DC8EELqw"
-            >YouTube</a
-          >
-          <a target="_blank" href="https://wa.me/c/5217445889420">WhatsApp</a>
-        </div>
-      </div>
-
-      <div class="copyright">
-        copyright 2022 by
-        <a href="https://webcreativa.mx" target="_blank">webcreativa</a>
-      </div>
-    </section>
     <!-- Footer fin -->
 
     <!-- WhatsApp -->
@@ -1062,5 +1076,7 @@
     <script src="/js/main.js"></script>
     <script src="/js/hoverlinks.js"></script>
     <script src="/js/swiper.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/btns-filtro.js"></script>
   </body>
 </html>

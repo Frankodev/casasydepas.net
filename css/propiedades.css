@@ -299,6 +299,9 @@ header {
   cursor: pointer;
 
   transition: all 0.3s ease-in-out;
+
+  font-weight: 700;
+  letter-spacing: 0.2rem;
 }
 
 .btn-accion {
@@ -309,7 +312,8 @@ header {
   background-color: var(--black);
 }
 
-.btn-accion:hover {
+.btn-accion:hover,
+.btn-accion:active {
   background-color: #ff7979;
 }
 
@@ -360,7 +364,7 @@ header {
 /* Footer */
 .footer {
   width: 100vw;
-  padding: 6rem 6% 2rem;
+  padding: 2rem 6% 2rem;
   background-color: white;
 }
 

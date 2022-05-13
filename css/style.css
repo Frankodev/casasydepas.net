@@ -72,7 +72,7 @@ section:nth-child(odd) {
   text-align: center;
   color: var(--green);
   font-size: 3.2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 
 .btn-prim {
@@ -281,6 +281,38 @@ header {
 }
 
 /* section ventas y rentas */
+
+/* subsección btns filtro de busqueda propiedad */
+.btns-filtro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn-filtro {
+  padding: 0.8rem 2.4rem;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: white;
+  background-color: var(--orange);
+  cursor: pointer;
+
+  border: solid 1px transparent;
+}
+
+.btn-filtro:hover,
+.btn-filtro:active {
+  background-color: #ff7979;
+}
+
+.btn-filtro.active {
+  background-color: #fff;
+  color: var(--orange);
+  border: solid 1px var(--orange);
+}
+
 .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
@@ -561,6 +593,10 @@ header {
 }
 
 /* section formulario */
+.order {
+  padding: 5rem 8% 3rem;
+}
+
 .order form {
   max-width: 60rem;
   border-radius: 0.5rem;
@@ -590,7 +626,7 @@ header {
 
 .order form .inputBox .input input,
 .order form .inputBox .input textarea {
-  background: #eee;
+  background: #edf1f4;
   border-radius: 0.5rem;
   padding: 1rem;
   font-size: 1.6rem;
@@ -623,7 +659,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 6rem 6% 2rem;
+  padding: 2rem 0 2rem;
 }
 
 .footer__container {
@@ -872,6 +908,11 @@ header {
 @media only screen and (max-width: 320px) {
   .about .row .image-about img {
     max-width: 260px;
+  }
+
+  .btn-filtro {
+    font-size: 1.6rem;
+    padding: 0.5rem 1rem;
   }
 }
 
