@@ -682,7 +682,15 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0 2rem;
+  padding: 8rem 0 2rem;
+}
+
+.footer-market {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 6% 2rem;
 }
 
 .footer__container {
@@ -1003,6 +1011,10 @@ header {
 
 /* Break point 320px */
 @media only screen and (max-width: 320px) {
+  .heading {
+    font-size: 2.4rem;
+  }
+
   .about .row .image-about img {
     max-width: 260px;
   }
