@@ -307,9 +307,26 @@ header {
 
 /* subsección btns filtro de busqueda propiedad */
 .btns-filtro {
+  position: fixed;
+  top: 14rem;
+  right: -10rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 250px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 100px solid #428bca;
+  transform: rotate(-90deg);
+}
+
+.trapecio {
+  width: 250px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 100px solid #428bca;
 }
 
 .btn-filtro {
@@ -346,6 +363,7 @@ header {
 }
 
 .box {
+  max-width: 41.7rem;
   background: white;
   border-radius: 4px;
   border: 0.1rem solid rgba(0, 0, 0, 0.1);
