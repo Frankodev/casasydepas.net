@@ -822,7 +822,7 @@ header {
   bottom: 2rem;
   right: 2rem;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 50%;
   /* hover effect default */
   transform: scale(0.9);
   transition: 0.4s ease-in-out all;
