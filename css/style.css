@@ -47,7 +47,14 @@ html {
 }
 
 section {
+  position: relative;
   padding: 5rem 8% 10rem;
+  min-width: 100%;
+}
+
+.iframe {
+  position: relative;
+  padding: 5rem 2% 10rem;
   min-width: 100%;
 }
 
@@ -230,7 +237,12 @@ header {
   width: 100%;
   height: 6rem;
   border-radius: 0 0 8px 8px;
-  background: linear-gradient(to top, black, rgba(174, 228, 232, 0.36));
+  background: linear-gradient(
+    to top,
+    black,
+    rgba(0, 0, 0, 0.261),
+    rgba(0, 0, 0, 0.061)
+  );
   position: absolute;
   bottom: 0;
 }
@@ -363,6 +375,13 @@ header {
 
   max-width: 118rem;
   margin: auto;
+
+  scroll-behavior: smooth;
+}
+
+/* Clase para ocultar la barra de scroll en secc ventas y rentas */
+.box-container::-webkit-scrollbar {
+  -webkit-appearance: none;
 }
 
 .box {
@@ -630,7 +649,7 @@ header {
   font-size: 2.6rem;
 }
 
-.btn-market h4 {
+.btn-market p {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -703,7 +722,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 8rem 0 2rem;
+  padding: 0;
 }
 
 .footer-market {
@@ -717,7 +736,7 @@ header {
 .footer__container {
   width: 100%;
   max-width: 120rem;
-  margin: 5rem auto;
+  margin: 2.5rem auto;
   display: flex;
   justify-content: space-between;
   gap: 3rem;
@@ -796,7 +815,7 @@ header {
   background-color: whitesmoke;
   border-radius: 50%;
   z-index: 9999;
-  animation: shadow-pulse 1s infinite;
+  animation: shadow-pulse 4s infinite;
 }
 
 .whatsapp ion-icon {
@@ -810,6 +829,15 @@ header {
     /* box-shadow: 0 0 0 0 #00ff7f; */
     box-shadow: 0 0 0 0 var(--darkgreen);
   }
+  25% {
+    box-shadow: 0 0 0 5px transparent;
+  }
+  50% {
+    box-shadow: 0 0 0 15px transparent;
+  }
+  75% {
+    box-shadow: 0 0 0 25px transparent;
+  }
   100% {
     box-shadow: 0 0 0 35px transparent;
   }
@@ -817,7 +845,7 @@ header {
 
 /* scroll Top/Up Button */
 .scroll-top {
-  z-index: 1;
+  z-index: 9999;
   height: 6.4rem;
   width: 6.4rem;
   background-color: var(--orange);
@@ -844,6 +872,38 @@ header {
 }
 
 .scroll-top:active {
+  transform: scale(1);
+  box-shadow: 0px 0px 20px rgba(255, 87, 87, 0.286);
+}
+
+/* scroll Top/Up Button */
+.scroll-rigth {
+  position: absolute;
+  bottom: 46%;
+  right: 2rem;
+  height: 6.4rem;
+  width: 6.4rem;
+  border-radius: 50%;
+  background-color: var(--orange);
+  cursor: pointer;
+  z-index: 999;
+  /* hover effect default */
+  transform: scale(0.9);
+  transition: 0.4s ease-in-out all;
+  /* for centering the icon */
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-rigth svg {
+  transform: rotate(90deg);
+  width: 50%;
+  color: #efebfa;
+  pointer-events: none;
+}
+
+.scroll-rigth:active {
   transform: scale(1);
   box-shadow: 0px 0px 20px rgba(255, 87, 87, 0.286);
 }
@@ -984,7 +1044,7 @@ header {
 
   .home .home-slider .slide .image img {
     width: 100%;
-    height: 360px;
+    /* height: 360px; */
   }
 
   .home .home-slider .slide .content {
@@ -1003,8 +1063,34 @@ header {
     margin-left: 0;
   }
 
+  .scroll-rigth {
+    display: flex;
+  }
+
+  .iframe iframe {
+    height: 600px;
+  }
+
   .footer .box-container {
     margin: 5rem 1.5rem;
+  }
+
+  .box-container {
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .box {
+    /* max-width: 41.7rem; */
+    min-width: 100%;
+    background: white;
+    border-radius: 4px;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    /* overflow: hidden; */
+    text-align: center;
   }
 }
 
@@ -1016,7 +1102,7 @@ header {
 
   .home .home-slider .slide .image img {
     width: 100%;
-    height: 260px;
+    /* height: 260px; */
   }
 
   .dishes .box-container .box img {

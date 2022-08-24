@@ -36,7 +36,7 @@ html {
 
 header {
   padding: 4rem 4%;
-  min-width: 100vw;
+  min-width: 100%;
 }
 
 section,
@@ -63,21 +63,6 @@ header {
 
   z-index: 1000;
   box-shadow: var(--box-shadow);
-}
-
-.logo__container {
-  display: flex;
-  align-items: center;
-}
-
-.logo__img {
-  width: 4.8rem;
-}
-
-.logo {
-  color: var(--logo);
-  font-size: 2.8rem;
-  font-weight: bolder;
 }
 
 /* containers, titulos y subtitulos */
@@ -257,15 +242,15 @@ header {
 }
 
 .precio {
-  font-size: 3.2rem;
-  font-weight: 800;
+  font-size: 2.8rem;
+  font-weight: 400;
   color: var(--logo);
   margin-bottom: 2rem;
   padding-left: 1rem;
 }
 
 .precio__span {
-  font-size: 2.1rem;
+  font-size: 1.8rem;
 }
 
 .descripcion {
@@ -377,7 +362,7 @@ header {
   width: 100%;
   height: 100%;
 
-  padding: 2rem;
+  padding: 1rem;
   background-color: white;
   box-shadow: 0 1px 2px 0 rgb(0, 0, 0, 25%);
 
@@ -391,46 +376,32 @@ header {
 
 /* Footer */
 .footer {
-  width: 100vw;
-  padding: 2rem 6% 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
   background-color: white;
 }
 
-.footer__container {
+.logo__container {
   display: flex;
-  justify-content: space-between;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 3rem;
-  margin: 5rem 0;
+  align-items: center;
 }
 
-.container__box h2 {
-  padding: 0.5rem 0;
-  font-size: 2.5rem;
-  color: var(--black);
+.logo__img {
+  width: 4.8rem;
 }
 
-.container__box a {
-  display: block;
-  padding: 0.5rem 0;
-  font-size: 1.6rem;
-  color: var(--light-color);
-  text-decoration: none;
-}
-
-.container__box a:hover {
-  color: var(--darkgreen);
+.logo {
+  color: var(--logo);
+  font-size: 2.8rem;
+  font-weight: bolder;
 }
 
 .copyright {
-  width: 100%;
-  text-align: center;
-  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
   font-size: 2rem;
   color: var(--black);
-  padding: 0.5rem;
-  padding-top: 1.5rem;
-  margin-top: 1.5rem;
 }
 
 .copyright a {
@@ -489,7 +460,7 @@ header {
 
   .container__caracteristicas {
     padding: 2.5rem 1rem 1.5rem;
-    margin: 2rem auto 5rem;
+    margin: 2rem auto 1rem;
 
     order: 3;
   }
@@ -498,14 +469,15 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     flex-wrap: wrap;
     gap: 4rem;
   }
 
   .precio {
-    text-align: center;
+    /* text-align: center; */
     padding-top: 2rem;
+    padding-left: 0;
   }
 
   .container__btns {
@@ -592,10 +564,9 @@ header {
 
   .contenedor__imagen {
     min-width: 45rem;
-    min-height: 26rem;
+    min-height: 30rem;
     max-width: 75rem;
-    max-height: 46rem;
-
+    max-height: 45rem;
     overflow: hidden;
   }
 
