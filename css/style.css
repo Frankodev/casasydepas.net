@@ -499,6 +499,22 @@ header {
   color: var(--blackgrey);
 }
 
+.btn-ventas {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-ventas a {
+  color: var(--orange);
+  font-size: 2.6rem;
+}
+
 /* section servicios */
 .menu .box-container {
   display: grid;
@@ -1135,4 +1151,10 @@ header {
     font-size: 1.6rem;
     letter-spacing: 1.4px;
   }
+}
+
+/* Página Finder */
+.btn-regresar a {
+  font-size: 2.8rem;
+  color: var(--orange);
 }
