@@ -10,7 +10,6 @@ const boxRentas = document.getElementById("box-rentas");
 
 // funcion evento click para hacer scroll rigth de la sección de Ventas
 btnVentas.addEventListener("click", () => {
-  console.log("click btn Ventas");
   boxVentas.scrollBy(345, 0);
 });
 

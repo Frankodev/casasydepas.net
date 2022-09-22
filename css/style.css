@@ -10,7 +10,8 @@
 
   --darkgreen: #68c1c5;
 
-  --black: #00214d;
+  /* --black: #00214d; */
+  --black: #1c1a1c;
 
   --orange: #ff5757;
 
@@ -1079,9 +1080,9 @@ header {
     margin-left: 0;
   }
 
-  .scroll-rigth {
+  /* .scroll-rigth {
     display: flex;
-  }
+  } */
 
   .iframe iframe {
     height: 600px;
@@ -1091,11 +1092,11 @@ header {
     margin: 5rem 1.5rem;
   }
 
-  .box-container {
+  /* .box-container {
     position: relative;
     display: flex;
     overflow-x: scroll;
-  }
+  } */
 
   .box {
     /* max-width: 41.7rem; */
