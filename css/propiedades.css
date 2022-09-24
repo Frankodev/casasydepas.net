@@ -411,31 +411,6 @@ header {
   font-size: 2.4rem;
 }
 
-/* loader */
-.loader-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 10000;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.loader-container img {
-  width: 280px;
-  height: 280px;
-}
-
-.loader-container.fade-out {
-  top: -110%;
-  opacity: 0;
-}
-
 /* medias querys */
 /* Break point 1024px  - auxiliar 1086px */
 @media only screen and (max-width: 1086px) {
