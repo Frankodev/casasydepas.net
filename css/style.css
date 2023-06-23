@@ -13,7 +13,7 @@
   /* --black: #00214d; */
   --black: #1c1a1c;
 
-  --orange: #ff5757;
+  --orange: #ff2131;
 
   --light-color: #737373;
 
@@ -357,7 +357,7 @@ header {
 
 .btn-filtro:hover,
 .btn-filtro:active {
-  background-color: #ff7979;
+  background-color: #ff5757;
 }
 
 .btn-filtro.active {
